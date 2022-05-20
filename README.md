@@ -13,3 +13,7 @@ This script allow us to open hidden sidebar
 <b>#4 Scroll animations</b><br />
 This script shows elements during scrolling the page when we reach some height
 ----------------------------------------------------------------------------------------
+<b>#5 Accordions</b><br />
+This script allow toggle between elements, working like FAQ's questions
+----------------------------------------------------------------------------------------
+
