@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Kalkulator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <h1 class="title">Oblicz koszta prania swojego dywanu!</h1>
+            <div class="divider"></div>
+            <form class="form">
+                <label>Typ włosia</label>
+                <select id='type'>
+                    <option value="krotkie">Krótkie włosie</option>
+                    <option value="dlugie">Długie włosie</option>
+                </select>
+                <label>Długość</label>
+                <input type="number" name='dlugosc' placeholder="Wprowadź długość dywanu" id="width">
+                <label>Szerokość</label>
+                <input type="number" name='szerokosc' placeholder="Wprowadź szerokość dywanu" id="height">
+                <label>Dodatkowe usługi</label>
+                <select id="additional">
+                    <option value="ozonowane">Ozonowanie</option>
+                    <option value="trzepanie">Trzepanie</option>
+                    <option value="zapach">Usuwanie zapachów</option>
+                    <option value="impregnacja">Impregnacja</option>
+                    <option value="czyszczenie">Czyszczenie antyalergiczne</option>
+                </select>
+                <button type="button" class="primary-btn" id="btn">Oblicz</button>
+            </form>
+            <div class="result">
+                <label>Kwota do zapłaty: <span class="total"></span></label>
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
