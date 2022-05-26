@@ -16,4 +16,7 @@ This script shows elements during scrolling the page when we reach some height
 <b>#5 Accordions</b><br />
 This script allow toggle between elements, working like FAQ's questions
 ----------------------------------------------------------------------------------------
+<b>#6 Calculator</b><br />
+Simple calculator
+----------------------------------------------------------------------------------------
 
