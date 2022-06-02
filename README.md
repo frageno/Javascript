@@ -19,4 +19,7 @@ This script allow toggle between elements, working like FAQ's questions
 <b>#6 Calculator</b><br />
 Simple calculator
 ----------------------------------------------------------------------------------------
+<b>#7 Slider</b><br />
+Simple code for slide elements using arrows or buttons
+----------------------------------------------------------------------------------------
 
