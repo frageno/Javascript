@@ -22,4 +22,7 @@ Simple calculator
 <b>#7 Slider</b><br />
 Simple code for slide elements using arrows or buttons
 ----------------------------------------------------------------------------------------
+<b>#8 Tags input</b><br />
+Code which allows to add 10 random tags into input filed, u can also remove item one by one or removing all by one click
+----------------------------------------------------------------------------------------
 
